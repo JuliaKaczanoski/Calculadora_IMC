@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #4CAF50;
+  --font-color: #333;
+  --background-color: #f4f4f4;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: var(--primary-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input {
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
